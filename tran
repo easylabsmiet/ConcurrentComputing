@@ -1,0 +1,59 @@
+#
+# seminar 1:
+#
+mpicc -o ex01a.px -O2 -lm  ex01a.c
+mpicc -o ex01b.px -O2 -lm  ex01b.c
+mpicc -o ex01c.px -O2 -lm  ex01c.c
+mpicc -o ex01d.px -O2 -lm  ex01d.c
+mpicc -o ex02a.px -O2 -lm  ex02a.c mycom.c
+mpicc -o ex02b.px -O2 -lm  ex02b.c mycom.c
+#
+# seminar 2:
+#
+mpicc -o ex03a.px -O2 -lm  ex03a.c
+mpicc -o ex03b.px -O2 -lm  ex03b.c
+mpicc -o ex04a.px -O2 -lm  ex04a.c mycom.c
+mpicc -o ex04b.px -O2 -lm  -pthread ex04b.c mycom.c
+#
+# seminar 3:
+#
+mpicc -o ex05a.px -O2 -lm  ex05a.c mycom.c
+mpicc -o ex05b.px -O2 -lm  -pthread ex05b.c mycom.c
+mpicc -o ex05c.px -O2 -lm  -fopenmp ex05c.c mycom.c
+#
+# seminar 4:
+#
+mpicc -o ex06a.px -O2 -lm  ex06a.c
+mpicc -o ex06b.px -O2 -lm  ex06b.c
+mpicc -o ex06c.px -O2 -lm  ex06c.c
+mpicc -o ex07a.px -O2 -lm  ex07a.c mycom.c mynet.c
+#
+# seminar 5:
+#
+mpicc -o ex08a.px -O2 -lm  ex08a.c mynet.c
+mpicc -o ex08b.px -O2 -lm  ex08b.c mycom.c mynet.c
+#
+# seminar 6:
+#
+mpicc -o ex09a.px -O2 -lm  ex09a.c mynet.c
+mpicc -o ex09b.px -O2 -lm  ex09b.c mynet.c
+mpicc -o ex10a.px -O2 -lm  ex10a.c mynet.c myrand.c
+#
+# seminar 7:
+#
+mpicc -o ex11a.px -O2 -lm  ex11a.c mycom.c mynet.c myprog.c
+mpicc -o ex11b.px -O2 -lm  ex11b.c mycom.c mynet.c myprog.c
+#
+# seminar 8:
+#
+mpicc -o ex12a.px -O2 -lm  ex12a.c mycom.c mynet.c myprog.c
+#
+# seminar 9:
+#
+mpicc -o ex13a.px -O2 -lm  ex13a.c mycom.c mynet.c myio.c
+mpicc -o ex13b.px -O2 -lm  ex13b.c mycom.c mynet.c myio.c myprog.c
+#
+# seminar 10:
+#
+mpicc -o ex14a.px -O2 -lm  ex14a.c mycom.c mynet.c myio.c
+mpicc -o ex14b.px -O2 -lm  ex14b.c mycom.c mynet.c myio.c myprog.c
